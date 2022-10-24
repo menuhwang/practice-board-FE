@@ -1,0 +1,84 @@
+article {
+    padding: 16px;
+    border: 1px solid rgb(88, 88, 88);
+    box-shadow: 0 1px 20px rgba(0,0,0,0.2);
+}
+
+.registe, .post {
+    padding-bottom: 48px;
+}
+
+.registe-cancel {
+    float: left;
+}
+
+.registe-submit {
+    float: right;
+}
+
+#author, #password {
+    width: 20%;
+}
+
+#title {
+    width: 100%;
+}
+
+#contents {
+    width: 100%;
+}
+
+.float-wrap {
+    overflow: hidden;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(88, 88, 88);
+}
+
+#post-title {
+    float: left;
+}
+
+#post-author {
+    float: right;
+}
+
+#post-contents {
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgb(88, 88, 88);
+}
+
+#post-goback-btn {
+    float: left;
+}
+
+#post-del-btn {
+    float: right;
+}
+
+.reply {
+    overflow: hidden;
+}
+
+.reply-author {
+    float: left;
+    padding-right: 3px;
+    border-right: 1px solid rgb(88, 88, 88);
+}
+
+.reply-contents {
+    float: left;
+    padding-left: 3px;
+}
+
+#registe-reply-contents {
+    width: 100%;
+}
+
+.submit-reply {
+    overflow: hidden;
+}
+
+#registe-reply-submit, #registe-reply-author, #registe-reply-password {
+    float: right;
+    margin-left: 6px;
+}
